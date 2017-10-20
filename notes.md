@@ -58,3 +58,12 @@ var stadium = new Dome(4);
 4. Understand Data Structure
   - What is the time complexity? (coming soon)
   - How can you optimize ?
+
+  - - -
+
+  ### "LIFO"
+  Stacks are elementary data structure where the Last item added Into the stack
+  will be the First one taken Out of the stack.
+
+  "added Into" (aka Pushed onto)
+  "taken Out" (aka Popped off)
