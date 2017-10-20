@@ -38,6 +38,7 @@ Dome.prototype.countFloors = function() {
   }
 }
 var stadium = new Dome(4);
+
 ```
 
 - - -
@@ -65,5 +66,45 @@ var stadium = new Dome(4);
   Stacks are elementary data structure where the Last item added Into the stack
   will be the First one taken Out of the stack.
 
-  "added Into" (aka Pushed onto)
-  "taken Out" (aka Popped off)
+  `"added Into" (aka Pushed onto)`
+  `"taken Out" (aka Popped off)`
+
+
+### Interface: Stacks
+1. Constructor Function
+  - Storage
+2. methods
+  - push(value) // adds value to the front, returns size of stack
+  - pop()       // removes value from the front, returns value
+  - size()      // returns size of stack as an integer
+
+
+- - -
+```javascript
+var Stack =  function() {
+  this.storage = '';
+}
+
+Stack.prototype.push = function (val) {
+  this.storage.concat(val);
+  return this.size();
+};
+
+Stack.prototype.pop = function (val) {
+
+};
+
+Stack.prototype.size = function (val) {
+
+};
+
+var menu = new Stack();
+
+menu.push("Beans and Rice");
+
+
+
+
+```
+
+See code implementation @ [repl.it]('https://repl.it/Mw6O/0')
