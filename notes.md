@@ -39,3 +39,22 @@ Dome.prototype.countFloors = function() {
 }
 var stadium = new Dome(4);
 ```
+
+- - -
+
+## Stacks & Queues
+- - -
+#### Ingredients to Learn DS
+
+1. Learn Data Structure Concept
+  - Draw it
+  - Create the API/operation methods
+2. Build the Data Structure
+  - Pseudocode the implementation
+  - Code the data Structure Constructor
+3. Utilize the data Structure
+  - put your data structure to work
+  - Pair it with an algorithm if needed
+4. Understand Data Structure
+  - What is the time complexity? (coming soon)
+  - How can you optimize ?
